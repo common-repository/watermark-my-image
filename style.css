@@ -1,0 +1,29 @@
+.color-selector {
+  background: url("colorpicker/images/select.png") repeat scroll 0 0 transparent;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  top:-32px;
+  left:160px;
+}
+.color-selector div {
+  background: url("colorpicker/images/select.png") repeat scroll center center transparent;
+  height: 30px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 30px;
+}
+.show {
+  display:table-row;
+}
+.hidden {
+  display:none;
+}
+#watermark-my-image-progress-wrapper {
+  border:1px solid #cacaca;
+}
+#watermark-my-image-progress {
+  background-color:#217096;
+  height:20px;
+}
